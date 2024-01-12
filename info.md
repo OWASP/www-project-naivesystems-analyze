@@ -1,17 +1,15 @@
 ### NaiveSystems Analyze Information
-* [Incubator Project](#)
-* [Type of Project](#)
-* [Version 0.0.0](#)
-* [Builder](#)
-* [Breaker](#)
+Production Project
 
-### Downloads or Social Links
-* [Download](#)
-* [Meetup](#)
+### Project Classification
+Tool
 
 ### Code Repository
-* [repo](#)
+* [Repo](https://github.com/naivesystems/analyze)
 
 ### Change Log
-* [changes](#)
+* [Release](https://github.com/naivesystems/analyze/releases)
 
+### Sources
+* [Website](https://naivesystems.com)
+* [Doc Website](https://docs.naivesystems.com)
