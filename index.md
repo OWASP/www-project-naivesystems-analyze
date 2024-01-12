@@ -2,21 +2,39 @@
 
 layout: col-sidebar
 title: OWASP NaiveSystems Analyze
-tags: example-tag
-level: 2
-type: 
-pitch: A very brief, one-line description of your project
-
+tags: guide
+level: 3.5
+type: code
+pitch: Supports C/C++, Java and more languages. Detect issues early. Ensure compliance with functional safety and coding standards. Get started for free, and scale up if needed.
 ---
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+NaiveSystems Analyze is a static analysis tool for code security and compliance.
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+- Speed up development, increase quality and security: Designed for DevOps and DevSecOps, NaiveSystems Analyze handles projects of any size and seamlessly integrates with various developer tools, offering control, collaboration, and reporting capabilities for the entire organization.
+- Ensure compliance with security and coding standards: NaiveSystems Analyze checks code for compliance with a variety of functional safety, security, and coding standards.
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+## Supported Coding Standards
 
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+NaiveSystems Analyze Community Edition currently supports the following coding
+standards:
 
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 3.5 - Production, 4 - Flagship)
+- [MISRA C:2012](https://misra.org.uk/product/misra-c2012-third-edition-first-revision/) third edition a.k.a. MISRA C:2019
+- [MISRA C++:2008](https://misra.org.uk/product/misra-c2008/)
+- [AUTOSAR C++14](https://www.autosar.org/fileadmin/standards/R22-11/AP/AUTOSAR_RS_CPP14Guidelines.pdf)
+- [Google C++ Style Guide](https://naive.systems/styleguide/cppguide.html)
 
-type: code, documentation, or other
+Refer to our demo repositories (e.g. [analyze-demo](https://github.com/naivesystems/analyze-demo)
+and [googlecpp-demo](https://github.com/naivesystems/googlecpp-demo)) to see how
+to specify and configure the various coding standards and their rules.
+
+## Join the Community
+
+If you find a bug of NaiveSystems Analyze, feel free to report it in the [issues](https://github.com/naivesystems/analyze/issues).
+
+Use [GitHub Discussions](https://github.com/naivesystems/analyze/discussions) for other topics.
+
+## License
+
+The Community Edition of NaiveSystems Analyze is licensed under the GNU General
+Public License version 3. Some subcomponents may have separate licenses. See
+their respective subdirectories in this repository for details.
